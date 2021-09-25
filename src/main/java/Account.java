@@ -48,9 +48,9 @@ public class Account {
         return true;
     }
 
-    public void checkBalance()
+    public int checkBalance()
     {
-        System.out.println("Current Balance:"+balance);
+        return balance;
     }
     public boolean makeWithdrawal(int amount,int time)
     {

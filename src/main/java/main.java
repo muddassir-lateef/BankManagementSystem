@@ -7,7 +7,10 @@ public class main{
 
     public static void main(String[] args)
     {
+        Bank m=new Bank() ;
         ArrayList<Account> accounts=new ArrayList<Account>();
+        System.out.println( m.AccountNoGen(11,21,11) );
+        System.out.println();
      //1   accounts.add(new Savings("1","2","3","4","5"));
      //   accounts.get(0).display();
         System.out.println("hi");
